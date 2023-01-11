@@ -52,25 +52,3 @@ function onCardGalleryClick(e) {
     } 
   }
 }
-
-
-//   console.log(e.target.dataset.source);
-//   const instance = basicLightbox.create(`
-//     <img src="${e.target.dataset.source}">`, 
-//   {
-//     onShow: (instance) => {
-//       RefGalleryContainer.addEventListener('keydown', onGalleryModalClose);
-//     },
-//     onClose: (instance) => {
-//       RefGalleryContainer.removeEventListener('keydown', onGalleryModalClose);
-//     },
-//   },
-//   instance.show(instance)
-//   );
-
-//   function onGalleryModalClose(e){
-//     if(e.code === 'Escape'){
-//       instance.close();
-//     } 
-//   }
-// }
