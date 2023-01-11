@@ -46,9 +46,9 @@ function onCardGalleryClick(e) {
   )
   instance.show()
 
-  function onGalleryModalClose(e){
-    if(e.code === 'Escape'){
-      instance.close();
-    } 
-  }
+  // function onGalleryModalClose(e){
+  //   if(e.code === 'Escape'){
+  //     instance.close();
+  //   } 
+  // }
 }
